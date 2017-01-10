@@ -1,0 +1,116 @@
+body
+{
+background-image: url(background.jpg);
+   //background-size: 100% 100%;     
+}
+h4 {
+	text-align: left; 
+	font-size: 20px;
+	font-weight: normal;
+	color:white;
+}
+.maincomp {
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+
+	width: 50%;
+	margin:0 auto;
+	
+	background-color: rgba(255,255,255,0.4);
+}
+
+section {
+	padding: 8px 20px;
+	border-radius: 5px;
+
+	margin: 5px 30px;
+
+	background-color: rgba(255,255,255,0.65);
+}
+
+section p {
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+
+	margin-right: 20px;
+
+	color: black;
+	
+}
+
+section p.address {
+	display: inline;
+	vertical-align: top;
+	}
+
+section input {
+	outline: none;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+
+	height: 40px;
+	width: 60%;
+
+	border-color: rgba(255,255,255, 0.2);
+	color: black;
+}
+
+section textarea{
+	outline: none;
+	border-radius: 20px;
+	border-width: 2px;
+	font-size: 18px;
+
+	width: 60%;
+	height: 200px;
+
+	border-color: white;
+}
+
+.card {
+	
+	padding: 8px 20px;
+	border-radius: 5px;
+
+	margin: 3px 45px;
+
+	background-color: rgba(255,255,255,0.65);
+}
+.card p{
+	
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	
+	margin-right: 20px;
+	color: black;
+}
+
+form input{
+	vertical-align: middle;
+	margin:0px 0px;
+	width: 17%;
+}
+
+img {
+	vertical-align: middle;
+
+	width: 10%;
+}
+
+input[type = "submit"] {
+	text-align: center;
+	border: none;
+	border-radius: 20px;
+	font-size: 20px;
+
+	width: 150px;
+	height: 50px;
+
+	background-color: black;
+	color: white;
+
+}

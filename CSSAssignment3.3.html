@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>CSS</title>
+<link rel="stylesheet" href="st.css">
+</head>
+<body> 
+    <section class="maincomp">
+        <h4>Step 1: Your details</h4>
+        <section>
+            <p>Name    <input type="text" name="name" placeholder="First and last name"></p>
+        </section>
+        <section>
+            <p>Email   <input type="text" name="email" placeholder="example@domain.com"></p>
+        </section>
+        <section>
+            <p>Phone   <input type="text" name="phone" placeholder="e.g. +447500000000"> </p>    
+        </section>
+
+        <h4>Step 1: Delivery address</h4>
+        <section>
+            <p class="address">Address  <textarea></textarea></p>
+        </section>
+        <section>
+            <p>Post code  <input type="text" name="post"></p>
+        </section>
+        <section>
+            <p>Country  <input type="text" name="country"></p>
+        </section>
+        
+        <h4>Step 1: Card details</h4>
+        <section class="card">
+            <p>Card Type</p>
+            <form>
+                <input type="radio"  value="visa"><img src="vis.png"></input>
+                <input type="radio"  value="amex"><img src="am.png">AmEx</input>
+                <input type="radio"  value="mastercard"><img src="mas.png">Master</input>
+            </form>
+        </section>
+        <section>
+            <p>Card number  <input type="text" name="card"></p>
+        </section>
+        <section>
+            <p>Security code  <input type="text" name="security"></p>
+        </section>
+        <section>
+            <p>Name on card <input type="text" name="cardholder" placeholder="Exact name as on card"></p>
+        </section><br>
+        <input type="submit" name="submit" value="BUY IT!">
+    </section>
+    
+</body>
+</html>
